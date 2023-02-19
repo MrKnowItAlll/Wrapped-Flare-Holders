@@ -5,12 +5,19 @@ Simple python script to try and query for Wrapped Flare holders addresses if the
 
 **Notes:**
 **1. This is a guestimate, this can have errors in term of final amounts.**
+
 **2. Script only looks at accounts above 1M WFLR**
+
 **3. Reasons for an account to be marked non FIP01 eligible:**
+
  1.Did the FLR originated at Genesis **"Block #0 account"**
+
  2.Did the FLR originated from an Internal transaction and amount above 3M **"Internal Transaction FLR received from Contract"**
+
  3.Did the account received more than 1k FLR before TDE **"Received Flare before TDE"**
+
  4.Did the FLR(over 100k) received from an account that existed at Genesis **"Received Flare from Block #0 account"**
+
  5.Did the FLR(over 100k) received from other account from the above **"Received Flare from Other team account"**
           
 **Script last run at : Saturday Feb 18, 2023**
